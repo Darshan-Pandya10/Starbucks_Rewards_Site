@@ -41,7 +41,7 @@ header .left {
     padding: 0rem 0.5rem;
 }
 
-.left .nav {
+.right .nav {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 700;
@@ -53,7 +53,7 @@ header .left {
     margin: 0.5rem 0rem;
 }
 
-.left a:hover {
+.nav:hover {
     color: rgb(0, 0, 0);
 }
 
@@ -743,6 +743,43 @@ input::placeholder {
 
 @media only screen and (max-width:785px) {
 
+    /* hamburger navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .intro {
+        width: 27rem;
+        margin-left: 1rem;
+        /* border: 1px solid black; */
+        padding-top: 10rem;
+        height: 50rem;
+    }
+
+    .landing-herobg {
+        background-color: #d4e9e2;
+        height: 50rem;
+        background-image: url(./images/hero-mobile_2021.jpg);
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: bottom 0px left -100px;
+    }
+
+
+
     .steps {
         display: flex;
         flex-direction: column;
@@ -754,6 +791,14 @@ input::placeholder {
     .step-2,
     .step-3 {
         height: 17rem;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
     }
 
     .star-points {
@@ -796,16 +841,18 @@ input::placeholder {
         justify-content: space-evenly;
         align-items: center;
         margin: 0rem 0rem;
+        padding-top: 2rem;
     }
 
     .extras {
-        margin-bottom: 1rem;
+        margin: 1rem 0rem;
     }
 
     /* ways-to-earn-points */
 
     .ways-to-earn-points h1 {
         margin: 0rem 0rem 1rem 0rem;
+        font-size: 23px;
     }
 
     .ways {
@@ -813,6 +860,7 @@ input::placeholder {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        padding-top: 2rem;
     }
 
     hr {
@@ -949,6 +997,7 @@ input::placeholder {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        text-align: center;
     }
 
     .about-column {
