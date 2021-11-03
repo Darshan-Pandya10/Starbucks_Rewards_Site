@@ -15,6 +15,12 @@ html {
     font-size: 16px;
 }
 
+.menu-btn i {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
 header {
     height: 9rem;
     /* border: 1px solid black; */
@@ -30,15 +36,15 @@ header .h-upper {
     justify-content: space-between;
 }
 
-header .left {
-    border: 1px solid rgb(255, 255, 255);
-}
 
 #logo {
     width: 4em;
     padding: 0.5rem 0.5rem;
 }
 
+#click {
+    display: none;
+}
 
 .right .nav {
     text-decoration: none;
@@ -49,7 +55,7 @@ header .left {
 }
 
 .h-upper .right {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -100,6 +106,7 @@ header .h-bottom {
 
 .location:hover {
     font-weight: 600;
+    color: black;
 }
 
 .sign-in:hover,
@@ -131,7 +138,7 @@ header .h-bottom {
 }
 
 .intro h1 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 5px;
     margin-bottom: 1rem;
     width: 17rem;
@@ -766,7 +773,7 @@ input::placeholder {
         background-image: url(./images/hero-mobile_2021.jpg);
         background-repeat: no-repeat;
         background-size: 40rem;
-        background-position: bottom 0px left -4 0px;
+        background-position: bottom 0px left -40px;
     }
 }
 
@@ -785,8 +792,50 @@ input::placeholder {
 
 @media only screen and (max-width:820px) {
 
-    /* hamburger navbar */
+    /* hamburger navbar starts */
 
+    body {
+        position: relative;
+    }
+
+    .right a {
+        margin-top: 1rem;
+    }
+
+    .h-upper .right {
+        position: absolute;
+        top: 7.25rem;
+        right: -105%;
+        width: 100vw;
+        height: 60vh;
+        background-color: rgb(117, 160, 138);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+
+    #click {
+        display: block;
+    }
+
+    #click:checked~a {
+        right: 50%;
+    }
+
+    .menu-btn i {
+        display: block;
+        margin: 1.5rem;
+    }
+
+    .sign-in,
+    .join-now {
+        margin: 0rem;
+    }
+
+    /* hamburger navbar ends */
     .right a {
         display: block;
     }
@@ -805,13 +854,19 @@ input::placeholder {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: -2rem;
     }
 
     .far-from-logo {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin-right: 1rem;
+    }
+
+    .near-logo a {
+        margin: 0rem;
     }
 
 
