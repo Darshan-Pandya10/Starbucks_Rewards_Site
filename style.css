@@ -827,7 +827,7 @@ input::placeholder {
     }
 
     .right.slide-in{
-        transform: translate(-6% , 33%);
+        transform: translate(-6.5% , 33%);
         transition: transform 0.7s ease-out;
         color: black;
         /* border: 1px solid black; */
