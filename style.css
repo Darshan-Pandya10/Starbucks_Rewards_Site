@@ -819,7 +819,7 @@ input::placeholder {
         flex-direction: column;
         justify-content: center;
         align-content: flex-start;
-        transform: translate(100% , 33%);
+        transform: translate(96% , 33%);
         transition: transform 0.7s ease-in;
         position: fixed;
         /* border: 1px solid black; */
@@ -827,7 +827,7 @@ input::placeholder {
     }
 
     .right.slide-in{
-        transform: translate(-5% , 33%);
+        transform: translate(-6% , 33%);
         transition: transform 0.7s ease-out;
         color: black;
         /* border: 1px solid black; */
