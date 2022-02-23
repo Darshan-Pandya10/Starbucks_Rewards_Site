@@ -811,9 +811,9 @@ input::placeholder {
 
 
     .h-upper .right {
-        width: 120vw;
+        width: 100vw;
         height: 25rem;
-        background-image: url(./images/coffee.jpeg);
+        background-image: url(./images/night.jpeg);
         background-position: center;
         display: flex;
         flex-direction: column;
@@ -823,12 +823,11 @@ input::placeholder {
         transition: transform 0.7s ease-in;
         position: fixed;
         /* border: 1px solid black; */
-        padding-right: 25rem;
         padding-top: 4rem;
     }
 
     .right.slide-in{
-        transform: translate(-4% , 33%);
+        transform: translate(-5% , 33%);
         transition: transform 0.7s ease-out;
         color: black;
         /* border: 1px solid black; */
