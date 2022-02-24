@@ -641,6 +641,10 @@ input::placeholder {
 }
 
 @media only screen and (max-width:995px) {
+    
+    body{
+        overflow-x: hidden;
+    }
 
     .landing-herobg {
         height: 30rem;
@@ -767,6 +771,10 @@ input::placeholder {
         background-size: 40rem;
         background-position: bottom 0px left 200px;
     }
+
+    body{
+        overflow-x: hidden;
+    }
 }
 
 @media only screen and (min-width:405px) and (max-width:600px) {
@@ -777,6 +785,10 @@ input::placeholder {
         background-repeat: no-repeat;
         background-size: 40rem;
         background-position: bottom 0px left -40px;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 }
 
@@ -789,6 +801,10 @@ input::placeholder {
         background-size: 40rem;
         background-position: bottom 0px left -100px;
     }
+
+    body{
+        overflow-x: hidden;
+    }
 }
 
 /* testing flex-direction column for mobile and tablet view. */
@@ -799,6 +815,7 @@ input::placeholder {
 
     body {
         position: relative;
+        overflow-x: hidden;
     }
 
     .right a {
