@@ -630,6 +630,21 @@ input::placeholder {
     margin: 1rem 1.5rem;
 }
 
+.githubprofile{
+    margin: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.githubprofile a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 0.7rem;
+}
+
 /* media queries */
 
 @media only screen and (min-width:995px) {
