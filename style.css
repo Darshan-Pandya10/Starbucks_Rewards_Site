@@ -141,7 +141,6 @@ header .h-bottom {
 .intro {
     width: 27rem;
     margin-left: 3rem;
-    /* border: 1px solid black; */
     padding-top: 10rem 1rem;
 }
 
@@ -150,6 +149,7 @@ header .h-bottom {
     padding: 5px;
     margin-bottom: 1rem;
     width: 17rem;
+    padding-top: 8rem;
 }
 
 .intro .jn-link {
@@ -700,7 +700,6 @@ input::placeholder {
     .intro {
         width: 27rem;
         margin-left: 3rem;
-        /* border: 1px solid black; */
         padding-top: 10rem;
     }
 
@@ -710,6 +709,7 @@ input::placeholder {
         font-size: 24px;
         margin-bottom: 1rem;
         width: 14rem;
+        margin-top: 0rem;
     }
 
     .left .nav {
@@ -829,20 +829,21 @@ input::placeholder {
         justify-content: center;
         align-content: center;
         transform: translate(600px , 337px);
-        transition: transform 1s ease;
+        transition: transform 1s 0.2s ease;
         position: fixed;
         /* border: 1px solid black; */
         margin-top: -22rem;
         margin-left: 0rem;
         overflow-x: hidden;
-
+        top: 125px;
+        right: 150px;
     }
 
     .right.slide-in{
         width: 8rem;
         height: 12rem;
         transform: translate(140px , 337px);
-        transition: transform 1s ease;
+        transition: transform 1s 0.2s ease;
         color: black;
         /* border: 1px solid black; */
         position: fixed;
@@ -876,13 +877,14 @@ input::placeholder {
         justify-content: center;
         align-content: center;
         transform: translate(600px , 337px);
-        transition: transform 1s ease;
+        transition: transform 1s 0.2s ease;
         position: fixed;
         /* border: 1px solid black; */
         margin-top: -22rem;
         margin-left: 0rem;
         overflow-x: hidden;
-
+        top: 125px;
+        right: 150px;
 
     }
 
@@ -890,7 +892,7 @@ input::placeholder {
         width: 8rem;
         height: 12rem;
         transform: translate(140px , 337px);
-        transition: transform 1s ease;
+        transition: transform 1s 0.2s ease;
         color: black;
         /* border: 1px solid black; */
         position: fixed;
@@ -992,19 +994,21 @@ input::placeholder {
         justify-content: center;
         align-content: center;
         transform: translate(600px , 337px);
-        transition: transform 1s ease;
+        transition: transform 1s 0.2s ease;
         position: fixed;
         /* border: 1px solid black; */
         margin-top: -22rem;
         margin-left: 0rem;
         overflow-x: hidden;
+        top: 125px;
+        right: 150px;
     }
 
     .right.slide-in{
         width: 8rem;
         height: 12rem;
         transform: translate(140px , 337px);
-        transition: transform 1s ease;
+        transition: transform 1s 0.2s ease;
         color: black;
         /* border: 1px solid black; */
         position: fixed;
