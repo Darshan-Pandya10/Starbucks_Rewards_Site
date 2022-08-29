@@ -87,8 +87,13 @@ header .h-bottom {
     text-decoration: none;
     font-size: 14px;
     color: black;
-    border-bottom: 2px solid transparent;
+}
 
+.right .nav {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    border-bottom: 2px solid transparent;
 }
 
 .right .nav:hover{
