@@ -399,8 +399,6 @@ hr {
     margin: 0.5rem;
 }
 
-
-
 .column-1 {
     width: 15rem;
     display: flex;
@@ -417,11 +415,23 @@ hr {
     text-align: center;
 }
 
+.way-3 h1{
+    font-weight: 600;
+
+}
+
+
 .way-3 .column-1 {
     width: 15rem;
     height: 20rem;
     padding-bottom: 4rem;
     text-align: center;
+}
+
+
+.way-3 .column-1 p {
+    margin-top: 1.5rem;
+
 }
 
 .column-2,
@@ -453,9 +463,6 @@ hr {
     padding-bottom: 1rem;
 }
 
-.way-3 .column-1 p {
-    margin-top: 1.5rem;
-}
 
 .column-2 p,
 .column-3 p {
