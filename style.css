@@ -135,7 +135,7 @@ header .h-bottom {
     background-image: url(./images/xl-hero-desktop_2021.png);
     background-repeat: no-repeat;
     background-size: 115rem;
-    background-position: top -50px left -100px;
+    background-position: top -500px left -100px;
 }
 
 .intro {
@@ -666,9 +666,9 @@ input::placeholder {
     }
 
     .landing-herobg {
-        height: 30rem;
-        background-size: 105rem;
-        background-position: top -30px left -200px;
+        height: 40rem;
+        background-size: 155rem;
+        background-position: top -30px left -10px;
     }
 }
 
